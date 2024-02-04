@@ -100,4 +100,27 @@ const users = [
 // console.log(Object.keys(tinderUser))
 // console.log(Object.values(tinderUser))
 // console.log(Object.entries(tinderUser))
-console.log(tinderUser.hasOwnProperty("age"))
+// console.log(tinderUser.hasOwnProperty("age"))
+
+// Destructuring of objects
+
+const course = {
+    courseName: "JS in hindi",
+    price: 999,
+    courseInstructor: "Hitesh"
+}
+
+// course.courseInstructor
+// const {courseInstructor} = course
+
+const {courseInstructor: instructor} = course
+
+console.log(instructor)
+
+// JSON
+
+// {
+//     "name": "oma",
+//     "id": 123,
+//     "location": "nagpur"
+// }
